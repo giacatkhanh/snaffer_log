@@ -23,4 +23,6 @@ python3 snaffler-fmt.py snaffler.log | less -R
 
 Advanced Usage (Filter by Colors):
 You can specify which alert levels you want to see by passing them as a comma-separated list. For example, to only view Red (critical credentials) and Yellow (interesting databases) findings:
+```bash
 python3 snaffler-fmt.py snaffler.log Red,Yellow | less -R
+```
