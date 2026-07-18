@@ -26,3 +26,13 @@ You can specify which alert levels you want to see by passing them as a comma-se
 ```bash
 python3 snaffler-fmt.py snaffler.log Red,Yellow | less -R
 ```
+
+---
+## 📊 Visual Preview
+
+**Before (Raw Snaffler Output):**
+<img width="1776" height="317" alt="image" src="https://github.com/user-attachments/assets/09fbde0a-43f5-42ff-abfe-717ad71696ad" />
+
+**After (Using snaffler-fmt with Red,Yellow filter):**
+<img width="1171" height="579" alt="image" src="https://github.com/user-attachments/assets/4d3e17c7-b0b9-447f-90d5-fe7620aed43b" />
+
